@@ -7,5 +7,9 @@ pluginManagement {
     }
 }
 
+
+include ':jniutils'
+project(':jniutils').projectDir = new File('../../../../jni-utils/java')
+
 rootProject.name = 'droidplug'
 

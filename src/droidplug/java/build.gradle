@@ -36,5 +36,6 @@ android {
 }
 
 dependencies {
-    implementation 'io.github.gedgygedgy.rust:jni-utils:0.1.0-SNAPSHOT'
+    // implementation 'io.github.gedgygedgy.rust:jni-utils:0.1.0-SNAPSHOT'
+    implementation project(':jniutils')
 }
